@@ -1,7 +1,7 @@
 name: 每日早报推送
 on:
   schedule:
-    - cron: '00 0 * * *'
+    - cron: '*/5 * * * *'
   workflow_dispatch:
 jobs:
   push-news:
